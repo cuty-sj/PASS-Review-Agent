@@ -25,7 +25,7 @@ jobs:
 
     - name: Run Python
       env:
-        BOT_TOKEN: ${{ secrets.REVIEW_BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.REVIEW_CHAT_ID }}
+        REVIEW_BOT_TOKEN: ${{ secrets.REVIEW_BOT_TOKEN }}
+        REVIEW_CHAT_ID: ${{ secrets.REVIEW_CHAT_ID }}
 
       run: python PASS_Android_Appreview.py
