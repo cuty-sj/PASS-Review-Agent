@@ -185,9 +185,6 @@ print(message)
 # ==========================================
 # Telegram 발송
 # ==========================================
-print(BOT_TOKEN)
-print(CHAT_ID)
-print(url)
 
 
 url = (
